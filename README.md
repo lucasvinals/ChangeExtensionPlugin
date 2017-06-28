@@ -5,9 +5,11 @@ This plugin helps changing extensions of assets and scripts
 in order to use HtmlWebpackPlugin (https://github.com/jantimon/html-webpack-plugin)
 and CompressionWebpackPlugin (https://github.com/webpack-contrib/compression-webpack-plugin) together
 ```
-Installation: `yarn add change-extension-plugin` or `npm install change-extension-plugin --save` (You'll need a recent version of lodash also)
-Include in your project like `const ChangeExtensionPlugin = require('change-extension-plugin');`
-Use like this:
+**Installation** `yarn add change-extension-plugin` or `npm install change-extension-plugin --save` (You'll need a recent version of lodash also)
+
+**Include in your project** `const ChangeExtensionPlugin = require('change-extension-plugin');`
+
+**Use like this**
 ```
 plugins: [
   new CompressionPlugin(
@@ -40,6 +42,6 @@ plugins: [
 ]
 ```
 
-That's all!
+*That's all!*
 
 
