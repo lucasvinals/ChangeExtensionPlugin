@@ -1,13 +1,15 @@
 # ChangeExtensionPlugin
 
-```
-This plugin helps changing extensions of assets and scripts 
+*This plugin helps changing extensions of assets and scripts 
 in order to use HtmlWebpackPlugin (https://github.com/jantimon/html-webpack-plugin)
-and CompressionWebpackPlugin (https://github.com/webpack-contrib/compression-webpack-plugin) together
-```
-**Installation** `yarn add change-extension-plugin` or `npm install change-extension-plugin --save` (You'll need a recent version of lodash also)
+and CompressionWebpackPlugin (https://github.com/webpack-contrib/compression-webpack-plugin) together*
 
-**Include in your project** `const ChangeExtensionPlugin = require('change-extension-plugin');`
+**Installation** 
+*with yarn* `yarn add change-extension-plugin lodash`
+*with npm*  `npm install change-extension-plugin lodash --save`
+
+**Include in your project**
+`const ChangeExtensionPlugin = require('change-extension-plugin');`
 
 **Use like this**
 ```
@@ -33,7 +35,7 @@ plugins: [
          */
         extensions: ['js', 'css'],
         /**
-         * This is the extension of the compression method you'll use.
+         * Extension of the compression method.
          * 'gz' by default
          */
         compressionMethod: 'gz',
