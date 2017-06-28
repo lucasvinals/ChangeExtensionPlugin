@@ -1,0 +1,19 @@
+{
+  "name": "change-extension-plugin",
+  "version": "1.0.0",
+  "description": "A simple connector for HtmlWebpackPlugin and CompressionWebpackPlugin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasvinals/ChangeExtensionsPlugin.git"
+  },
+  "author": "Lucas Viñals",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasvinals/ChangeExtensionPlugin/issues"
+  },
+  "homepage": "https://github.com/lucasvinals/ChangeExtensionPlugin#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
