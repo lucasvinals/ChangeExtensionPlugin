@@ -1,3 +1,6 @@
+/**
+ * Author: Lucas Viñals
+ */
 const { set } = require('lodash');
 
 class ChangeExtension {
