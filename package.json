@@ -1,6 +1,6 @@
 {
   "name": "change-extension-plugin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple connector for HtmlWebpackPlugin and CompressionWebpackPlugin",
   "main": "index.js",
   "repository": {
