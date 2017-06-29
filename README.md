@@ -1,8 +1,8 @@
 # ChangeExtensionPlugin
 
-*This plugin helps changing extensions of assets and scripts 
-in order to use HtmlWebpackPlugin (https://github.com/jantimon/html-webpack-plugin)
-and CompressionWebpackPlugin (https://github.com/webpack-contrib/compression-webpack-plugin) together*
+This plugin helps changing extensions of assets and scripts 
+in order to use *HtmlWebpackPlugin* (https://github.com/jantimon/html-webpack-plugin)
+and *CompressionWebpackPlugin* (https://github.com/webpack-contrib/compression-webpack-plugin) together.
 
 **Installation** 
 *with yarn* `yarn add change-extension-plugin lodash`
