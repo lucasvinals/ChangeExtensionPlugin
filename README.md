@@ -30,7 +30,7 @@ plugins: [
         filename: './views/index.html',
       }
     ),
-    new ChangeExtrensionPlugin(
+    new ChangeExtensionPlugin(
       {
         /**
          * These are the extensions of files that
