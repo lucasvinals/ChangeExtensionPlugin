@@ -8,7 +8,7 @@ and **CompressionWebpackPlugin** (<https://github.com/webpack-contrib/compressio
 
 *with yarn* `yarn add change-extension-plugin lodash`
 
-*with npm*  `npm install change-extension-plugin lodash --save`
+*with npm*  `npm install change-extension-plugin lodash --save-dev`
 
 **Include in your project**
 
