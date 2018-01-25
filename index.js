@@ -14,7 +14,7 @@ class ChangeExtension {
       set(
         htmlData,
         `assets[${ extension }]`,
-        htmlData.assets[extension].map((name) => `${ name }.${ this.compressionMethod }`)
+        htmlData.assets[extension].map((name) => name.replace(extension,`${extension}.${this.compressionMethod}`))
       )
     );
   }
